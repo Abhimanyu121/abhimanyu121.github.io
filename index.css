@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 
 body{
-    margin:0%;
-    padding:0%;
+    margin:1%;
+    padding:1%;
     width:100vw;
     background:var(--bg-color);
     color:var(--text-color);
-    max-width:100vw;
+    max-width:101vw;
     overflow-x:hidden;
     align-items:center;
     font-family: 'Poppins', sans-serif;
@@ -35,7 +35,7 @@ body{
     height:50px;
     border:2px solid var(--bg-color);
     border-bottom:2px solid var(--text-color);
-    border-radius:50%;
+    border-radius:51%;
     margin:0;
 }
 
@@ -47,7 +47,7 @@ body{
 #profile {
     width:24vw;
     padding:4vh 3vw;
-    height:92vh;
+    height:93vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -60,7 +60,7 @@ body{
 }
 
 #display {
-    width:64vw;
+    width:63vw;
     padding:4vh 3vw;
     height:92vh;
     display:inline-block;
