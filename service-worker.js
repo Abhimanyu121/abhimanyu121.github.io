@@ -9,7 +9,7 @@
       cacheName: "fallback",
       plugins: [
         new workbox.expiration.Plugin({
-          maxEntries: 128,
+          maxEntries: 138,
           maxAgeSeconds: 7 * 24 * 60 * 60, // 1 week
           purgeOnQuotaError: true, // Opt-in to automatic cleanup
         }),
